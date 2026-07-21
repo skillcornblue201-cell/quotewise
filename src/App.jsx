@@ -397,17 +397,16 @@ function Home({ jobs, settings, onNewJob, onOpenJob, onProfile, onSaved, demoMod
   return (
     <div style={{ padding: "4px 18px 100px" }}>
       <div style={{ marginTop: 6, marginBottom: 26 }}>
-        <div
+        <img
+          src="/logo.png"
+          alt="QuoteWise — Know your costs. Know your price."
           style={{
-            fontFamily: "Space Grotesk",
-            fontWeight: 700,
-            fontSize: 28,
-            color: COLORS.ink,
-            letterSpacing: -0.3,
+            display: "block",
+            width: "100%",
+            maxWidth: 260,
+            height: "auto",
           }}
-        >
-          QuoteWise
-        </div>
+        />
         <div
           style={{
             fontFamily: "Inter",
